@@ -1,0 +1,54 @@
+C:\Projects\VuThao.Train\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.dll
+C:\Projects\VuThao.Train\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.pdb
+C:\Projects\VuThao.Train\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\VuThao.Train\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\VuThao.Train\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csprojAssemblyReference.cache
+C:\Projects\VuThao.Train\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CoreCompileInputs.cache
+C:\Projects\VuThao.Train\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CopyComplete
+C:\Projects\VuThao.Train\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.dll
+C:\Projects\VuThao.Train\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.pdb
+E:\VUthao\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.dll
+E:\VUthao\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.pdb
+E:\VUthao\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.dll
+E:\VUthao\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.xml
+E:\VUthao\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.AssemblyReference.cache
+E:\VUthao\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CoreCompileInputs.cache
+E:\VUthao\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CopyComplete
+E:\VUthao\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.dll
+E:\VUthao\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.pdb
+C:\Users\phucpq\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.dll
+C:\Users\phucpq\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.pdb
+C:\Users\phucpq\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\phucpq\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\phucpq\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csprojAssemblyReference.cache
+C:\Users\phucpq\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CoreCompileInputs.cache
+C:\Users\phucpq\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CopyComplete
+C:\Users\phucpq\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.dll
+C:\Users\phucpq\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.pdb
+C:\Users\phucp\Downloads\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.dll
+C:\Users\phucp\Downloads\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.pdb
+C:\Users\phucp\Downloads\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\phucp\Downloads\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\phucp\Downloads\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.AssemblyReference.cache
+C:\Users\phucp\Downloads\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CoreCompileInputs.cache
+C:\Users\phucp\Downloads\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CopyComplete
+C:\Users\phucp\Downloads\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.dll
+C:\Users\phucp\Downloads\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.pdb
+D:\OneDrive\Máy tính\phucp\OneDrive-2022-12-12\CodeExample (2)\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.AssemblyReference.cache
+D:\OneDrive\Máy tính\phucp\OneDrive-2022-12-12\CodeExample (2)\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CoreCompileInputs.cache
+D:\OneDrive\Máy tính\phucp\OneDrive-2022-12-12\CodeExample (2)\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.dll
+D:\OneDrive\Máy tính\phucp\OneDrive-2022-12-12\CodeExample (2)\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.pdb
+D:\OneDrive\Máy tính\phucp\OneDrive-2022-12-12\CodeExample (2)\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.dll
+D:\OneDrive\Máy tính\phucp\OneDrive-2022-12-12\CodeExample (2)\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.pdb
+D:\OneDrive\Máy tính\phucp\OneDrive-2022-12-12\CodeExample (2)\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\Máy tính\phucp\OneDrive-2022-12-12\CodeExample (2)\CodeExample (5)\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.xml
+D:\OneDrive\Máy tính\phucp\OneDrive-2022-12-12\CodeExample (2)\CodeExample (5)\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CopyComplete
+E:\CodeExample\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.dll
+E:\CodeExample\CodeExample\VuThao.Train.Common\bin\Debug\VuThao.Train.Common.pdb
+E:\CodeExample\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.dll
+E:\CodeExample\CodeExample\VuThao.Train.Common\bin\Debug\Newtonsoft.Json.xml
+E:\CodeExample\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.AssemblyReference.cache
+E:\CodeExample\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CoreCompileInputs.cache
+E:\CodeExample\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.csproj.CopyComplete
+E:\CodeExample\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.dll
+E:\CodeExample\CodeExample\VuThao.Train.Common\obj\Debug\VuThao.Train.Common.pdb

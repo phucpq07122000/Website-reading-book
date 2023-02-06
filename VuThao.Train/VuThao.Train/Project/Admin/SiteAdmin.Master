@@ -1,0 +1,203 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteAdmin.Master.cs" Inherits="VuThao.Train.Project.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CssAdMin.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="dist2/all.css" rel="stylesheet" />
+    <link href="notification/notification.css" rel="stylesheet" />
+    <link href="dist2/styles.css" rel="stylesheet" />
+ 
+    <style>html { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }</style>
+
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2022.3.1109/styles/kendo.default-ocean-blue.min.css" />
+
+    <script src="https://kendo.cdn.telerik.com/2022.3.1109/js/jquery.min.js"></script>
+    <style>
+        #iconNumber{
+            content: attr(value);
+            font-size: 14px;
+            background: red;
+            border-radius: 50%;
+            color:aqua;
+            padding: 3px;
+            position: relative;
+            left: -8px;
+            top: -10px;
+            opacity: 0.9;
+        }
+        .k-grid .k-command-cell > .k-button {
+            
+            display: initial;
+        }
+    </style>
+    
+    <script src="https://kendo.cdn.telerik.com/2022.3.1109/js/kendo.all.min.js"></script>
+       <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="grid-container-content ">
+            <div class="leftPart">
+                <div class="sidebar">
+                    <div class="logo-details">
+                        <i class='bx bxl-c-plus-plus icon'></i>
+              
+                        <div class="logo_name">CodingLab</div>
+                        <i class='bx bx-menu' id="btn"></i>
+                    </div>
+                    <ul class="nav-list">
+                        <li>
+                            <i class='bx bx-search'></i>
+                            <input type="text" placeholder="Search...">
+                            <span class="tooltip">Search</span>
+                        </li>
+                       <%-- <li>
+                            <a href="#">
+                                <i class='bx bx-grid-alt'></i>
+                                <span class="links_name">Dashboard</span>
+                            </a>
+                            <span class="tooltip">Dashboard</span>
+                        </li>--%>
+                        <li>
+                             <a href="#" id="ShowBookGrid">
+                             <i class='bx bx-book-open'></i>
+                              <span class="links_name">Books</span>
+                            </a>
+                            <span class="tooltip">DataBooks</span>
+                          
+                          <%--  <span class="tooltip">User</span>--%>
+                        </li>
+                        <li>
+                             <a href="#" id="ShowUserGrid">
+                                <i class='bx bx-user'></i>
+                                
+                                <span class="links_name">User</span>
+                            </a>
+                                   <span class="tooltip">DataUsers</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                             <i class='bx bxs-book-reader'></i>
+                                <span class="links_name">Actor</span>
+                            </a>
+                            <span class="tooltip">Analytics</span>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                <i class='bx bx-group' ></i>
+                                <span class="links_name">TeamTranslate</span>
+                            </a>
+                            <span class="tooltip">Files</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-bell"></i>
+                                <span id="iconNumber"></span>
+                                 <span class="links_name">Message</span>
+
+                            </a>
+                            <span class="tooltip">ThongBao</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bx-heart'></i>
+                                <span class="links_name">Saved</span>
+                            </a>
+                            <span class="tooltip">Saved</span>
+                        </li>
+                        <li>
+                            <a href="../Home.aspx">
+                              <i class='bx bx-home-alt'></i>
+                                <span class="links_name">Home</span>
+                              
+                            </a>
+                            <span class="tooltip">HomePage</span>
+                        </li>
+                        <li class="profile">
+                            <div class="profile-details">
+                                <!--<img src="profile.jpg" alt="profileImg">-->
+                                <div class="name_job">
+                                    <div class="name">Prem Shahi</div>
+                                    <div class="job">Web designer</div>
+                                </div>
+                            </div>
+                            <i class='bx bx-log-out' id="log_out"></i>
+                        </li>
+                    </ul>
+                </div>
+                <section class="home-section">
+                    <div class="text"></div>
+                </section>
+                <script>
+                    let sidebar = document.querySelector(".sidebar");
+                    let closeBtn = document.querySelector("#btn");
+                    let searchBtn = document.querySelector(".bx-search");
+
+                    closeBtn.addEventListener("click", () => {
+                        sidebar.classList.toggle("open");
+                        menuBtnChange();//calling the function(optional)
+                    });
+
+                    searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
+                        sidebar.classList.toggle("open");
+                        menuBtnChange(); //calling the function(optional)
+                    });
+
+                    // following are the code to change sidebar button(optional)
+                    function menuBtnChange() {
+                        if (sidebar.classList.contains("open")) {
+                            closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+                        } else {
+                            closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+                        }
+                    }
+                </script>
+               
+            
+            </div>
+            <%--end left--%>
+            <div class="rightPart">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+    <%--     Show notification--%>
+    <script id="emailTemplate" type="text/x-kendo-template">
+        <div class="new-mail" >
+            <img src="../content/web/notification/envelope.png" />
+            <h3>#= title #</h3>
+            <p>#= message #</p>
+        </div>
+    </script>
+
+    <script id="errorTemplate" type="text/x-kendo-template">
+        <div class="wrong-pass">
+         <span class="fa #:icon# fa-2x fa-fw"></span>
+            <h3>#= title #</h3>
+            <p>#= message #</p>
+        </div>
+    </script>
+
+    <script id="successTemplate" type="text/x-kendo-template">
+        <div class="upload-success">
+         <img src="image/success-icon-10.png" style="width:37px;"/>
+            <h3>#= message #</h3>
+        </div>
+    </script>
+<%--    end Show notification--%>
+<script src="JSAd.js"></script>
+<script src="notification/notification.js"></script>
+</html>

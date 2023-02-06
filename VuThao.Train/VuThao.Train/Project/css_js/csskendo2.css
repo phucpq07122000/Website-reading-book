@@ -1,0 +1,525 @@
+﻿body {
+    background-color: #6593a4;
+}
+
+#form1ogin {
+    background-color: #808080;
+}
+.k-floating-label-container{
+    padding-top:30px;
+}
+.button1 {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 30px;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 5em;
+    z-index: 2;
+}
+
+    .button1:hover {
+        color: #fff;
+    }
+
+    .button1 .btn1 {
+        align-items: center;
+        background: #0e0e10;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+    }
+
+    .button1:hover .btn1 {
+        background: transparent;
+    }
+
+#class img {
+    height: 200px;
+    width: 700px;
+    align-content: center;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    /*display: inline-block;*/
+}
+
+    .menu li span {
+        color: white;
+    }
+
+#logout span {
+    color: red;
+}
+
+#megaStore {
+    /*  max-width: 800px;
+    margin: 20px auto;*/
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid #607db8;
+    background: #3b5999;
+}
+
+    #megaStore img {
+        height: 200px;
+        width: 700px;
+        align-content: center;
+    }
+
+    #megaStore li img {
+        height: 20px;
+        width: 70px;
+    }
+
+#menu h2 {
+    font-size: 8em;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
+/*Search button*/
+
+/* css login*/
+body {
+}
+
+
+/*==Style cho menu===*/
+#menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+}
+
+    section .img-bg {
+        position: relative;
+        width: 50%;
+        height: 50%;
+    }
+
+
+
+        section .img-bg img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    section .noi-dung {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+        background-image: url('../image/images.jpg');
+        background-size: cover;
+    }
+
+        section .noi-dung .form {
+            width: 50%;
+            /*background-image: url('../image/cayXanh.jpg');*/
+        }
+
+
+            section .noi-dung .form h2 {
+                color: #607d8b;
+                font-weight: 500;
+                font-size: 1.5em;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                border-bottom: 4px solid #ff4584;
+                display: inline-block;
+                letter-spacing: 6px;
+            }
+
+            section .noi-dung .form .input-form {
+                margin-bottom: 20px;
+            }
+
+                section .noi-dung .form .input-form span {
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                    display: inline-block;
+                    color: #607db8;
+                    letter-spacing: 1px;
+                }
+
+
+
+                section .noi-dung .form .input-form input {
+                    width: 100%;
+                    padding: 10px 20px;
+                    outline: none;
+                    border: 1px solid #607d8b;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    color: #607d8b;
+                    background: transparent;
+                    border-radius: 30px;
+                }
+
+                    section .noi-dung .form .input-form input[type="button"] {
+                        background: #ff4584;
+                        color: #fff;
+                        outline: none;
+                        border: none;
+                        font-weight: 500;
+                        cursor: pointer;
+                        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+                    }
+
+                        section .noi-dung .form .input-form input[type="button"]:hover {
+                            background: #f53677;
+                        }
+
+            section .noi-dung .form .nho-dang-nhap {
+                margin-bottom: 10px;
+                color: #607d8b;
+                font-size: 14px;
+            }
+
+            section .noi-dung .form .input-form p {
+                color: #607d8b;
+            }
+
+
+
+                section .noi-dung .form .input-form p a {
+                    color: #ff4584;
+                }
+
+            section .noi-dung .form h3 {
+                color: #607d8b;
+                text-align: center;
+                margin: 80px 0 10px;
+                font-weight: 500;
+            }
+
+            section .noi-dung .form .icon-dang-nhap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+                section .noi-dung .form .icon-dang-nhap li {
+                    list-style: none;
+                    cursor: pointer;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    section .noi-dung .form .icon-dang-nhap li:nth-child(1) {
+                        color: #3b5999;
+                    }
+
+                    section .noi-dung .form .icon-dang-nhap li:nth-child(2) {
+                        color: #dd4b39;
+                    }
+
+                    section .noi-dung .form .icon-dang-nhap li:nth-child(3) {
+                        color: #55acee;
+                    }
+
+                    section .noi-dung .form .icon-dang-nhap li i {
+                        font-size: 24px;
+                    }
+
+@media (max-width: 768px) {
+    section .img-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    section .noi-dung {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+        section .noi-dung .form {
+            width: 100%;
+            padding: 40px;
+            background: rgba(255 255 255 / 0.9);
+            margin: 50px;
+        }
+
+            section .noi-dung .form h3 {
+                color: #607d8b;
+                text-align: center;
+                margin: 30px 0 10px;
+                font-weight: 500;
+            }
+}
+
+.k-input, .k-picker {
+    border-style: unset;
+}
+
+
+/*CSS PROFile*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    border: 2px solid rgba(0,0,0,0.12);
+}
+
+.grid-container-content {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    border: 2px solid rgba(0,0,0,0.12);
+}
+/*==Style cho menu===*/
+#menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+.grid-container-main {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-container-Sex {
+    padding: 10px;
+}
+
+    .grid-container-Sex > label {
+        margin: 6px 40px 6px 10px;
+        width: 70px;
+    }
+
+.rightPart input {
+    border-style: inset;
+    border: 2px solid #607db8;
+    border-radius: 5px;
+}
+
+.grid-container-main > label {
+    margin-right: 40px;
+}
+
+.grid-container-main > label {
+    margin-right: 40px;
+}
+
+.k-radio-label {
+    margin: 40px;
+}
+
+/*.absolute {
+      
+            position: absolute;
+            left: 200px;
+            bottom: 0px;
+        }*/
+
+sup-right {
+    position: absolute;
+    display: flex;
+    align-content: space-around;
+}
+
+.grid-content {
+    display: flex;
+    margin: 10px;
+}
+
+    .grid-content > label {
+        margin-right: 40px;
+    }
+
+label {
+    margin: 6px 40px 6px 10px;
+    width: 150px;
+}
+
+.sub_div {
+    margin-left: 60px;
+}
+
+#sdt label {
+    width: 120px;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 20% auto;
+    padding: 10px;
+}
+
+.grid-item-image {
+    display: grid;
+    padding: 10px;
+}
+
+.grid-item label {
+    width: 70px;
+}
+
+/*.image-preview {
+    position: relative;
+    vertical-align: top;
+    height: 300px;
+    width: 290px;
+}*/
+
+@media screen and (max-width: auto) {
+    div.k-window {
+        display: none !important;
+    }
+}
+
+.leftPart {
+    border-right: 2px solid #607d8b;
+}
+/*.LinePage {
+   
+    height: 100%;
+    border-left: 2px solid #607d8b;
+}*/
+
+#products {
+    height: 310px;
+    width: auto;
+    border-style: dashed;
+    /*  background-image: url('../image/pokemonwall.jpg');
+    background-size:cover;*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+    #products img {
+        position: relative;
+        vertical-align: top;
+        height: 295px;
+        width: 370px;
+    }
+
+#btSave {
+    display: flex; /* Important */
+    align-items: flex-end; /* Important */
+    justify-content: flex-end;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+/*    css add sach*/
+.test {
+    display: flex; /* Important */
+    align-items: center; /* Important */
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    margin: auto;
+    /*  background-image: url("https://th.bing.com/th/id/R.4b875f9ff370af85cecffe2aad971c7e?rik=to9a%2fzeWV0yJRg&pid=ImgRaw&r=0");
+    background-size: 100% 100%;*/
+}
+
+    .test #products {
+        height: 250px;
+        width: 200px;
+        border-style: dashed;
+    }
+
+    .test input {
+        /*  border-style: inset;
+        border: 5px solid #607db8;
+        border-radius: 6px;*/
+        border: 2px solid red;
+        border-radius: 12px;
+        padding: 5px;
+    }
+
+#content {
+    display: grid;
+    /*   text-align: center;*/
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    background-image: url("https://th.bing.com/th/id/R.4b875f9ff370af85cecffe2aad971c7e?rik=to9a%2fzeWV0yJRg&pid=ImgRaw&r=0");
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+
+    #content .grid-container-main label {
+        margin: 0 10px 0 0;
+        color: dodgerblue;
+    }
+/*   css pagedoc*/
+.grid-container-doc {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #3e3939;
+    color: white;
+}
+
+    .grid-container-doc test {
+        border-right: 2px solid #607d8b;
+    }
+
+.test #products img {
+    position: relative;
+    vertical-align: top;
+    height: 245.200px;
+    width: 195.200px;
+}
+
+#saveBook:hover {
+    background: red;
+}
